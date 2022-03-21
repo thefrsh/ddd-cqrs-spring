@@ -11,5 +11,5 @@ public interface CommandHandler<R, C extends Command> {
 
     R handle(C command);
 
-    Class<? extends Command> getCommandType();
+    boolean canHandle(Command command);
 }

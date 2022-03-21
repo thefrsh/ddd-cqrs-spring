@@ -1,7 +1,7 @@
 package io.github.thefrsh.dddcqrs.domain;
 
-import jakarta.persistence.MappedSuperclass;
-import jakarta.persistence.Transient;
+import javax.persistence.MappedSuperclass;
+import javax.persistence.Transient;
 
 /**
  * Base class for all aggregate roots
